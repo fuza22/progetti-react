@@ -6,6 +6,7 @@ import { data } from './data/data'
 function App() {
   return (
     <>
+    <h1 className='mb-10 bold'>Prossimi Incontri</h1>
     {
 
       data.map(u => {
